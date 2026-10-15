@@ -26,6 +26,7 @@ try {
     return browser.newContext({ viewport: { width: 1600, height: 1080 }, deviceScaleFactor: 1, locale: "zh-CN", timezoneId: "Asia/Shanghai" });
   }
   async function capture(page, name, path) {
+    console.log("Capturing " + name + " at " + path);
     const errors = [];
     const onError = error => errors.push(error.message);
     page.on("pageerror", onError);

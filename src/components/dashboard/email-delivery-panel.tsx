@@ -40,7 +40,7 @@ export function EmailDeliveryPanel({ locale, deliveries }: { locale: Locale; del
           {deliveries.map((delivery) => {
             const Icon = statusIcon(delivery.status);
             return <tr key={delivery.id} className="border-t border-piano/[0.05]">
-              <td className="px-4 py-3 text-xs text-piano/55">{new Date(delivery.createdAt).toLocaleString(dateLocale)}</td>
+              <td className="px-4 py-3 text-xs text-piano/55">{new Date(delivery.createdAt).toLocaleString(dateLocale, { timeZone: SHANGHAI_TIME_ZONE })}</td>
               <td className="px-4 py-3">{categoryLabel(delivery.category, locale)}</td>
               <td className="px-4 py-3">{delivery.recipient}</td>
               <td className="max-w-72 truncate px-4 py-3" title={delivery.subject}>{delivery.subject}</td>

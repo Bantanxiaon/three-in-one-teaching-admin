@@ -31,3 +31,11 @@ export function formatTeachingDateTime(value: Date, locale: Locale) {
     minute: "2-digit"
   });
 }
+
+// 管理端与服务端使用同一教学时区，避免 SSR 与浏览器本地时间产生水合差异。
+export function formatTeachingDate(value: Date, locale: Locale) {
+  return value.toLocaleDateString(locale === "zh" ? "zh-CN" : locale === "ja" ? "ja-JP" : "en-US", { timeZone: SHANGHAI_TIME_ZONE });
+}
+export function formatTeachingTime(value: Date, locale: Locale) {
+  return value.toLocaleTimeString(locale === "zh" ? "zh-CN" : locale === "ja" ? "ja-JP" : "en-US", { timeZone: SHANGHAI_TIME_ZONE, hour: "2-digit", minute: "2-digit" });
+}

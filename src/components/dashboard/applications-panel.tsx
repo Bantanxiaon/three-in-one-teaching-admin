@@ -1,5 +1,7 @@
 "use client";
 
+import { formatTeachingDate } from "@/lib/teaching-time";
+
 import { Archive, CheckCircle2, Search, ShieldCheck, Trash2, XCircle } from "lucide-react";
 import { useMemo, useState, useEffect } from "react";
 import { AccountApprovalDialog } from "@/components/dashboard/account-approval-dialog";
@@ -69,7 +71,7 @@ export function ApplicationsPanel({ locale, initialApplications, teachers, packa
       <div className="grid gap-3">
         {visible.map((application) => (
           <article key={application.id} className="glass-surface grid gap-4 rounded-[22px] p-4 lg:grid-cols-[minmax(180px,0.7fr)_minmax(220px,1fr)_auto] lg:items-center">
-            <div><div className="flex items-center gap-2"><p className="font-semibold">{application.name}</p><span className="rounded-full bg-piano/[0.06] px-2 py-1 text-[10px]">{formatApplicationRole(application.role, locale)}</span></div><p className="mt-1 text-xs text-piano/45">{application.phone} · {new Date(application.createdAt).toLocaleDateString(locale === "zh" ? "zh-CN" : locale === "ja" ? "ja-JP" : "en-US")}</p></div>
+            <div><div className="flex items-center gap-2"><p className="font-semibold">{application.name}</p><span className="rounded-full bg-piano/[0.06] px-2 py-1 text-[10px]">{formatApplicationRole(application.role, locale)}</span></div><p className="mt-1 text-xs text-piano/45">{application.phone} · {formatTeachingDate(new Date(application.createdAt), locale)}</p></div>
             <div><p className="text-sm text-piano/60">{application.goal || application.education || (locale === "zh" ? "未填写补充说明" : "No additional note")}</p><p className="mt-1 text-xs font-medium text-gold">{formatApplicationStatus(application.status, locale)}</p>{application.approvedUser ? <p className="mt-1 text-xs text-piano/45">{locale === "zh" ? "账号" : "Account"} · {application.approvedUser.email}</p> : null}</div>
             <div className="flex flex-wrap gap-2">
               <Button size="sm" variant="outline" onClick={() => review(application.id, "REVIEWING")} disabled={application.status === "CONFIRMED"}><ShieldCheck size={14} />{locale === "zh" ? "审核" : "Review"}</Button>

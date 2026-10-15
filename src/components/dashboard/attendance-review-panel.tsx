@@ -1,5 +1,7 @@
 "use client";
 
+import { SHANGHAI_TIME_ZONE } from "@/lib/teaching-time";
+
 import { CheckCircle2, LoaderCircle, ShieldCheck, XCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import type { AdminPendingAbsence } from "@/components/dashboard/admin-types";
@@ -101,7 +103,7 @@ export function AttendanceReviewPanel({ locale, initialAbsences }: { locale: Loc
           return <li key={absence.lessonId} className="grid min-w-0 gap-4 py-5 lg:grid-cols-[minmax(0,1fr)_minmax(220px,0.75fr)_auto] lg:items-end">
             <div className="min-w-0">
               <div className="flex min-w-0 flex-wrap items-center gap-2"><h3 className="truncate font-semibold">{absence.studentName}</h3><span className="text-xs text-piano/45">{absence.studentNumber}</span><span className="text-xs font-medium text-gold">{formatTeachingStatus(absence.attendanceStatus, locale)}</span></div>
-              <p className="mt-2 text-sm text-piano/55">{new Date(absence.startsAt).toLocaleString(dateLocale(locale), { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}</p>
+              <p className="mt-2 text-sm text-piano/55">{new Date(absence.startsAt).toLocaleString(dateLocale(locale), { timeZone: SHANGHAI_TIME_ZONE, month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}</p>
               <p className="mt-1 text-xs text-piano/42">{zh ? "授课教师" : "Teacher"}: {absence.teacherName}</p>
             </div>
             <label className="grid min-w-0 gap-1.5 text-sm"><span>{zh ? "核销原因" : "Decision reason"}</span><select className="h-11 min-w-0 rounded-[8px] border border-piano/15 bg-white px-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold" value={reasons[absence.lessonId] ?? labels[0]} onChange={(event) => setReasons((current) => ({ ...current, [absence.lessonId]: event.target.value }))} disabled={pending}>{labels.map((label) => <option key={label} value={label}>{label}</option>)}</select></label>

@@ -1,5 +1,7 @@
 "use client";
 
+import { SHANGHAI_TIME_ZONE } from "@/lib/teaching-time";
+
 import { ArrowRight, CalendarDays, History, Landmark, RefreshCw } from "lucide-react";
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import type { AdminCampus, AdminStudent, StudentLifecycleEventView } from "@/components/dashboard/admin-types";
@@ -80,7 +82,7 @@ function dateInputValue(value: string) {
 }
 
 function formatDate(value: string, locale: Locale) {
-  return new Intl.DateTimeFormat(locale === "zh" ? "zh-CN" : "en-US", { dateStyle: "medium" }).format(new Date(value));
+  return new Intl.DateTimeFormat(locale === "zh" ? "zh-CN" : "en-US", { dateStyle: "medium", timeZone: SHANGHAI_TIME_ZONE }).format(new Date(value));
 }
 
 function EventState({ state, locale }: { state: Record<string, unknown> | null; locale: Locale }) {

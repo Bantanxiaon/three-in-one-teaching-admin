@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { ChangePasswordForm } from "@/components/login/change-password-form";
+import { ChangePasswordForm } from "@/components/access/change-password-form";
 import type { Locale } from "@/i18n/routing";
 import { auth } from "@/lib/auth";
 import { getPortalPath } from "@/lib/dashboard";

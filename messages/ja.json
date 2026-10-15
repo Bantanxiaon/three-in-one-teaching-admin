@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Chenyin Piano Art Center | 技術と芸術が出会う場所",
+    "description": "Chenyin Piano Art Centerは、北京と広州で幼児の音楽との出会い、青少年の成長、音楽院進学準備、大人の個人レッスンを提供するプレミアムなピアノ芸術センターです。"
+  },
+  "nav": {
+    "studio": "スタジオ",
+    "teachers": "講師",
+    "courses": "コース",
+    "success": "成果",
+    "gallery": "ギャラリー",
+    "journal": "ジャーナル",
+    "booking": "体験レッスン",
+    "portal": "Portal",
+    "admin": "Admin",
+    "login": "会員ログイン"
+  },
+  "common": {
+    "bookTrial": "体験レッスンを予約",
+    "exploreStudio": "スタジオを見る",
+    "learnMore": "詳しく見る",
+    "viewProfile": "講師プロフィールを見る",
+    "readJournal": "ジャーナルを読む",
+    "contact": "お問い合わせ",
+    "language": "言語",
+    "beijing": "北京",
+    "guangzhou": "広州"
+  },
+  "home": {
+    "eyebrow": "北京・広州",
+    "heroTitle": "CHENYIN PIANO ART CENTER",
+    "heroSubtitle": "技術と芸術が出会う場所",
+    "heroChinese": "すべてのタッチに、心を宿す",
+    "heroLineOne": "すべてのタッチに",
+    "heroLineTwo": "心を宿す",
+    "primaryAction": "音楽に耳を澄ます時間を予約",
+    "closingLineOne": "お子さまのために、あるいはご自身のために",
+    "closingLineTwo": "音楽との本当の出会いを始めましょう",
+    "aboutTitle": "技術、美意識、舞台経験をともに育てるピアノスタジオです。",
+    "aboutText": "Chenyinは、個別指導、舞台での実践、定期的な評価、丁寧なレッスンフィードバックを通じて、長く続く音楽の道のりを育みます。",
+    "coursesTitle": "カリキュラム",
+    "teachersTitle": "講師",
+    "successTitle": "生徒の成果",
+    "journalTitle": "スタジオ・ジャーナル"
+  },
+  "forms": {
+    "name": "お名前",
+    "age": "年齢",
+    "phone": "電話番号",
+    "wechat": "WeChat",
+    "goal": "学習の目標",
+    "preferredTimes": "ご希望の時間帯",
+    "submit": "予約を送信",
+    "submitting": "送信中",
+    "success": "ご予約を受け付けました。スタジオアドバイザーよりまもなくご連絡します。",
+    "error": "送信に失敗しました。時間をおいてもう一度お試しください。"
+  },
+  "portal": {
+    "remaining": "Remaining Hours",
+    "completed": "Completed Hours",
+    "total": "Total Hours",
+    "nextLesson": "Next Lesson",
+    "feedback": "Teacher Feedback",
+    "homework": "Homework",
+    "practice": "Practice Log",
+    "schedule": "Lesson Calendar",
+    "students": "Students",
+    "analytics": "Analytics",
+    "finance": "Finance"
+  }
+}

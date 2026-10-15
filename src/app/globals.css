@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --background: 40 25% 98%; --foreground: 0 0% 4%; --border: 0 0% 85%; --input: 0 0% 85%; --ring: 36 35% 55%; --muted: 40 15% 94%; --muted-foreground: 0 0% 40%; --primary: 0 0% 4%; --primary-foreground: 0 0% 100%; --destructive: 0 70% 45%; --destructive-foreground: 0 0% 100%; }
+* { box-sizing:border-box; }
+body { margin:0; background:#f5f5f2; color:#050505; font-family:system-ui,sans-serif; }
+button,input,textarea,select { font:inherit; }
+button,a,input,select,textarea { -webkit-tap-highlight-color:transparent; }
+.glass-surface { border:1px solid rgba(255,255,255,.85); background:rgba(255,255,255,.8); box-shadow:0 12px 38px #0000000a; }
+.workspace-segment-active { background:#050505; color:white; }
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms!important; transition-duration:.01ms!important; scroll-behavior:auto!important; } }

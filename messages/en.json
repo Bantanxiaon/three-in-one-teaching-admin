@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Chenyin Piano Art Center | Where Technique Meets Art",
+    "description": "Chenyin Piano Art Center is a premium piano art center in Beijing and Guangzhou for discovery, youth development, conservatory preparation, and adult private study."
+  },
+  "nav": {
+    "studio": "Studio",
+    "teachers": "Teachers",
+    "courses": "Courses",
+    "success": "Success",
+    "gallery": "Gallery",
+    "journal": "Journal",
+    "booking": "Booking",
+    "portal": "Portal",
+    "admin": "Admin",
+    "login": "Member Login"
+  },
+  "common": {
+    "bookTrial": "Book A Trial",
+    "exploreStudio": "Explore Studio",
+    "learnMore": "Learn More",
+    "viewProfile": "View Mentor",
+    "readJournal": "Read Journal",
+    "contact": "Contact",
+    "language": "Language",
+    "beijing": "Beijing",
+    "guangzhou": "Guangzhou"
+  },
+  "home": {
+    "eyebrow": "Beijing · Guangzhou",
+    "heroTitle": "CHENYIN PIANO ART CENTER",
+    "heroSubtitle": "Where Technique Meets Art",
+    "heroChinese": "Let every touch carry a soul",
+    "heroLineOne": "Every Touch",
+    "heroLineTwo": "Carries A Soul",
+    "primaryAction": "Reserve A Listening Session",
+    "closingLineOne": "For your child, or for yourself",
+    "closingLineTwo": "Begin a genuine encounter with music",
+    "aboutTitle": "Not a conventional training center, but a piano studio where technique, taste, and stage experience grow together.",
+    "aboutText": "Chenyin builds long-term musical paths through private mentorship, stage practice, periodic assessment, and precise lesson feedback.",
+    "coursesTitle": "Curriculum",
+    "teachersTitle": "Mentors",
+    "successTitle": "Student Success",
+    "journalTitle": "Studio Journal"
+  },
+  "forms": {
+    "name": "Name",
+    "age": "Age",
+    "phone": "Phone",
+    "wechat": "WeChat",
+    "goal": "Learning Goal",
+    "preferredTimes": "Preferred Times",
+    "submit": "Submit Request",
+    "submitting": "Submitting",
+    "success": "Your request has been received. Our studio advisor will contact you soon.",
+    "error": "Submission failed. Please try again later."
+  },
+  "portal": {
+    "remaining": "Remaining Hours",
+    "completed": "Completed Hours",
+    "total": "Total Hours",
+    "nextLesson": "Next Lesson",
+    "feedback": "Teacher Feedback",
+    "homework": "Homework",
+    "practice": "Practice Log",
+    "schedule": "Lesson Calendar",
+    "students": "Students",
+    "analytics": "Analytics",
+    "finance": "Finance"
+  }
+}

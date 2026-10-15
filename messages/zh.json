@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "晨音 Piano 艺术中心 | 让每一次触键都拥有灵魂",
+    "description": "晨音 Piano 艺术中心 是北京与广州的高级钢琴艺术工作室，提供幼儿启蒙、青少年进阶、艺考升学与成人钢琴私教。"
+  },
+  "nav": {
+    "studio": "关于",
+    "teachers": "师资",
+    "courses": "课程",
+    "success": "成果",
+    "gallery": "影像",
+    "journal": "札记",
+    "booking": "预约",
+    "portal": "学生端",
+    "admin": "后台",
+    "login": "会员登录"
+  },
+  "common": {
+    "bookTrial": "预约体验课",
+    "exploreStudio": "探索艺术中心",
+    "learnMore": "了解更多",
+    "viewProfile": "查看导师",
+    "readJournal": "阅读札记",
+    "contact": "联系晨音",
+    "language": "语言",
+    "beijing": "北京",
+    "guangzhou": "广州"
+  },
+  "home": {
+    "eyebrow": "Beijing · Guangzhou",
+    "heroTitle": "CHENYIN PIANO ART CENTER",
+    "heroSubtitle": "Where Technique Meets Art",
+    "heroChinese": "让每一次触键都拥有灵魂",
+    "heroLineOne": "每一次触键",
+    "heroLineTwo": "都拥有灵魂",
+    "primaryAction": "预约一次认真聆听",
+    "closingLineOne": "为孩子，或为自己",
+    "closingLineTwo": "预约一次与音乐的真正邂逅",
+    "aboutTitle": "不是传统培训机构，而是一间让技术、审美与舞台经验共同生长的钢琴工作室。",
+    "aboutText": "晨音以私教制、阶段评估、音乐会实践和精细化反馈为核心，为不同年龄与目标的学员建立长期音乐路径。",
+    "coursesTitle": "课程体系",
+    "teachersTitle": "师资团队",
+    "successTitle": "学生成果",
+    "journalTitle": "晨音札记"
+  },
+  "forms": {
+    "name": "姓名",
+    "age": "年龄",
+    "phone": "电话",
+    "wechat": "微信",
+    "goal": "学习目标",
+    "preferredTimes": "可上课时间",
+    "submit": "提交预约",
+    "submitting": "提交中",
+    "success": "预约已提交，晨音顾问会尽快联系你。",
+    "error": "提交失败，请稍后再试。"
+  },
+  "portal": {
+    "remaining": "剩余课时",
+    "completed": "已上课时",
+    "total": "总课时",
+    "nextLesson": "下一节课",
+    "feedback": "老师反馈",
+    "homework": "作业内容",
+    "practice": "练琴日志",
+    "schedule": "课程日历",
+    "students": "学员管理",
+    "analytics": "数据分析",
+    "finance": "财务管理"
+  }
+}

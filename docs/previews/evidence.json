@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-10-15T07:09:29.525Z",
+  "browser": "Playwright Chromium",
+  "realRuntime": true,
+  "usesProductionData": false,
+  "evidence": [
+    {
+      "file": "01-login.png",
+      "path": "/zh/login",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "02-admin-overview.png",
+      "path": "/zh/admin",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "03-admin-applications.png",
+      "path": "/zh/admin?tab=applications",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "04-admin-students.png",
+      "path": "/zh/admin?tab=students",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "05-admin-schedule.png",
+      "path": "/zh/admin?tab=schedule",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "06-admin-attendance.png",
+      "path": "/zh/admin?tab=attendance",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "07-admin-teachers.png",
+      "path": "/zh/admin?tab=teacher-accounts",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "08-teacher-portal.png",
+      "path": "/zh/portal/teacher",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "09-student-portal.png",
+      "path": "/zh/portal/student",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 1600,
+        "height": 1080
+      }
+    },
+    {
+      "file": "10-mobile-student.png",
+      "path": "/zh/portal/student",
+      "actualBrowserScreenshot": true,
+      "data": "synthetic CI demo only",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      }
+    }
+  ]
+}

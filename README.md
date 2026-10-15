@@ -2,6 +2,40 @@
 
 覆盖管理员、教师、学员三端的统一登录与教学管理系统，MIT 开源。使用独立数据库与虚构演示档案运行，不依赖原网站、原 Vercel 项目或编辑器。
 
+## 实际界面预览
+
+以下 10 张图片来自系统启动后的浏览器实际截图，使用虚构的演示账号和教学数据。桌面视口为 1600 × 1080，移动视口为 393 × 852；点击图片可查看原图。
+
+### 统一登录
+
+[![三端统一登录页面](docs/previews/01-login.png)](docs/previews/01-login.png)
+
+### 管理员工作台
+
+| 数据概览 | 账号申请审核 |
+| --- | --- |
+| [![管理员数据概览](docs/previews/02-admin-overview.png)](docs/previews/02-admin-overview.png) | [![账号申请审核](docs/previews/03-admin-applications.png)](docs/previews/03-admin-applications.png) |
+
+| 学员档案与教师分配 | 日历排课 |
+| --- | --- |
+| [![学员账号管理](docs/previews/04-admin-students.png)](docs/previews/04-admin-students.png) | [![排课系统](docs/previews/05-admin-schedule.png)](docs/previews/05-admin-schedule.png) |
+
+| 出勤核销 | 教师账号管理 |
+| --- | --- |
+| [![出勤核销页面](docs/previews/06-admin-attendance.png)](docs/previews/06-admin-attendance.png) | [![教师账号管理](docs/previews/07-admin-teachers.png)](docs/previews/07-admin-teachers.png) |
+
+### 教师与学员工作台
+
+| 教师：课程安排与学员 | 学员：课时、课堂反馈与练习 |
+| --- | --- |
+| [![教师工作台](docs/previews/08-teacher-portal.png)](docs/previews/08-teacher-portal.png) | [![学员工作台](docs/previews/09-student-portal.png)](docs/previews/09-student-portal.png) |
+
+### 移动端学员工作台
+
+<a href="docs/previews/10-mobile-student.png"><img src="docs/previews/10-mobile-student.png" width="320" alt="移动视口下的学员工作台，展示剩余课时、练习时长和下一节课"></a>
+
+截图由 [可复现的浏览器流程](scripts/capture-previews.mjs)生成，[运行证据](docs/previews/evidence.json)记录了页面路径与视口。移动预览为 Chromium 视口检查，不代表真实 iPhone/Safari 性能测试。
+
 ## 包含内容
 
 - 邮箱密码登录、JWT 会话、首次登录改密、退出、角色权限。
